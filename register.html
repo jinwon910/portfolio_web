@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    }
+
+nav ul {
+    list-style: none;
+    }
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    main {
+    text-align: center;
+    }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+    }
+</style>
+<body>
+    <header>
+        <h2>회원가입 페이지</h2>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">홈</a></li>
+                <li><a href="introduce.html">소개</a></li>
+                <li><a href="projects.html">프로젝트</a></li>
+                <li><a href="contact.html">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <br>
+    <label for="username">이름</label>
+    <input type="name" name="username" id="username"placeholder="이름을 입력해주세요" maxlength="4">
+    <br>
+    <br>
+    <label for="userpassword">비밀번호</label>
+    <input type="password" name="userpassword" id="userpassword"placeholder="비밀번호를 입력해주세요">
+    <br>
+    <br>
+    <label for="useremail">이메일</label>
+    <input type="email" name="useremail" id="useremail"placeholder="이메일을 입력해주세요">
+    @
+    <select name="emailoption" id="addemail">
+        <optgroup label="이메일 선택">
+            <option value="이메일선택">이메일선택</option>
+            <option value="naver">naver.com</option>
+            <option value="gmail">gmail.com</option>
+            <option value="daum">daum.com</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="userbirth">생년월일</label>
+    <input type="date" name="userbirth" id="userbirth">
+    <br>
+    <br>
+    <input type="button" value="로그인">
+    <input type="button" value="회원가입">
+    <footer>
+        <p>© 2024 엄진원 모든 권리 보유</p>
+    </footer>
+</main>
+</body>
+</html>
